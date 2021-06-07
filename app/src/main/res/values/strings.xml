@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_startup">Startup</string>
+    <string name="app_calculator">Calculator</string>
+    <string name="str_0">0</string>
+    <string name="str_1">1</string>
+    <string name="str_2">2</string>
+    <string name="str_3">3</string>
+    <string name="str_4">4</string>
+    <string name="str_5">5</string>
+    <string name="str_6">6</string>
+    <string name="str_7">7</string>
+    <string name="str_8">8</string>
+    <string name="str_9">9</string>
+    <string name="str_plus">+</string>
+    <string name="str_minus">-</string>
+    <string name="str_multiply">*</string>
+    <string name="str_divide">/</string>
+    <string name="str_delete"><![CDATA[<]]></string>
+    <string name="str_clear">C</string>
+    <string name="str_decimal">.</string>
+    <string name="label_empty">空</string>
+</resources>
