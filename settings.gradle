@@ -1,3 +1,7 @@
 rootProject.name = "Android Homework"
 
+def openCVSdk = System.getenv("opencv_java")
+include ':opencv'
+project(':opencv').projectDir = new File(openCVSdk)
+
 include ':app'

@@ -13,8 +13,13 @@ public class StartupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
-        findViewById(R.id.test).setOnClickListener(view -> {
+
+        findViewById(R.id.start_calculator).setOnClickListener(view -> {
             startActivity(new Intent(this, CalculatorActivity.class));
+        });
+
+        findViewById(R.id.start_lane).setOnClickListener(view -> {
+            startActivity(new Intent(this, LaneActivity.class));
         });
     }
 }

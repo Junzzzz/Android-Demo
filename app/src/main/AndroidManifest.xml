@@ -20,6 +20,9 @@
         <activity
             android:name=".activities.CalculatorActivity"
             android:label="@string/app_calculator" />
+        <activity
+            android:name=".activities.LaneActivity"
+            android:label="@string/app_lane" />
     </application>
 
 </manifest>

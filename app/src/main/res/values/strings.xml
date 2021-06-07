@@ -1,6 +1,7 @@
 <resources>
     <string name="app_startup">Startup</string>
     <string name="app_calculator">Calculator</string>
+    <string name="app_lane">Lane Detect</string>
     <string name="str_0">0</string>
     <string name="str_1">1</string>
     <string name="str_2">2</string>

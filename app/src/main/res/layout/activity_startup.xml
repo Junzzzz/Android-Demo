@@ -13,10 +13,12 @@
         android:orientation="horizontal">
 
         <include
-            android:id="@+id/test"
+            android:id="@+id/start_calculator"
             layout="@layout/activity_startup_button_calculator" />
 
-        <include layout="@layout/activity_startup_button_empty" />
+        <include
+            android:id="@+id/start_lane"
+            layout="@layout/activity_startup_button_lane" />
 
         <include layout="@layout/activity_startup_button_empty" />
     </LinearLayout>
