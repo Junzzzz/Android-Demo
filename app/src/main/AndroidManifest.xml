@@ -2,6 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.junzzzz.calculator">
 
+    <supports-screens android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator">
         <activity
-            android:name=".activities.StartupActivity"
+            android:name=".activity.StartupActivity"
             android:label="@string/app_startup">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +31,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.CalculatorActivity"
+            android:name=".activity.CalculatorActivity"
             android:label="@string/app_calculator" />
         <activity
-            android:name=".activities.LaneActivity"
-            android:label="@string/app_lane" />
+            android:name=".activity.LaneActivity"
+            android:label="@string/app_lane"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </application>
-
 </manifest>

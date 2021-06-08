@@ -1,4 +1,4 @@
-package com.github.junzzzz.calculator.activities;
+package com.github.junzzzz.calculator.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
