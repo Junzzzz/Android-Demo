@@ -14,6 +14,12 @@ Modify the `openCVSdk` in the `settings.gradle` file to your own path.
 def openCVSdk = '../OpenCV-android-sdk'
 ```
 
+Or set environment variables:
+
+```bash
+opencv_java='../OpenCV-android-sdk'
+```
+
 Run!
 
 ## Interface
